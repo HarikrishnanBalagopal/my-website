@@ -9,6 +9,8 @@ class MainView extends LitElement
             {
                 --charcoal: #2d3033;
                 --color-gold: #fcbb34;
+                --color-cyan: rgb(0, 180, 240);
+                --color-darker-cyan: rgb(0, 140, 200);
 
                 --back-color: var(--charcoal);
                 --text-color: white;
@@ -35,7 +37,12 @@ class MainView extends LitElement
             }
             a
             {
-                color: var(--text-color);
+                text-decoration: none;
+                color: var(--color-cyan);
+            }
+            a:hover
+            {
+                color: var(--color-darker-cyan);
             }
             .highlight
             {
@@ -52,8 +59,9 @@ class MainView extends LitElement
             <section>
                 <h2>Harikrishnan Balagopal</h2>
                 <p>
-                    This is my personal website. I have included links to my codepen and some awesome <span class="highlight">❤</span> stuff (mostly related to javascript) below. <br/>
+                    This is my personal website. I have included links to my codepen and some awesome <span class="highlight">❤</span> stuff (mostly related to javascript) below.
                     Enthusiastic about science and technology in general and especially about computers and physics.
+                    Researching ways to generate videos using GANS. Interested in security research and formal verfication as a hobby.
                 </p>
             </section>
             <section>
@@ -70,8 +78,9 @@ class MainView extends LitElement
             <section>
                 <h2>Awesome Stuff <span class="highlight">❤</span></h2>
                 <ul>
+                    <li><a target="_blank" href="https://codepen.io/collection/AMvJZW/">Some of my better codepens.</a></li>
                     <li><a target="_blank" href="http://madebyevan.com/webgl-path-tracing/">WebGL Path Tracing</a></li>
-                    <li><a target="_blank" href="http://aem1k.com/">JavaScript Hacks and Creative Coding</a></li>
+                    <li><a target="_blank" href="http://aem1k.com/">Javascript Hacks and Creative Coding</a></li>
                     <li><a target="_blank" href="http://aem1k.com/world/">Spinning Globe Quine</a></li>
                     <li><a target="_blank" href="https://youtu.be/RTxtiLp1C8Y">Martin Kleppe: 1024+ Seconds of JS Wizardry -- JSConf EU 2013</a></li>
                 </ul>
