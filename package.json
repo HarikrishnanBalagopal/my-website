@@ -1,0 +1,23 @@
+{
+  "name": "my-website",
+  "version": "1.0.0",
+  "description": "my website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "browserslist": [
+    "> 5%"
+  ],
+  "author": "Hari",
+  "license": "ISC",
+  "dependencies": {
+    "lit-element": "^2.2.1"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "gh-pages": "^2.1.1",
+    "http-server": "^0.11.1"
+  }
+}
