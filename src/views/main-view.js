@@ -14,6 +14,8 @@ class MainView extends LitElement
                 --text-color: white;
                 --highlight-color: var(--color-gold);
 
+                display: grid;
+                height: 100%;
                 font-size: 16px;
             }
             .wrapper
@@ -22,7 +24,6 @@ class MainView extends LitElement
                 background-color: var(--back-color);
                 color: var(--text-color);
                 font-family: 'Montserrat', sans-serif;
-                height: 100%;
             }
             h1
             {
@@ -31,6 +32,10 @@ class MainView extends LitElement
                 line-height: 1.5;
                 letter-spacing: 0em;
                 font-weight: 400;
+            }
+            a
+            {
+                color: var(--text-color);
             }
             .highlight
             {
@@ -44,11 +49,33 @@ class MainView extends LitElement
         return html`
         <div class="wrapper">
             <h1>About Me</h1>
-            <h2>Harikrishnan Balagopal</h2>
-            <p>
-                This is my personal website. I have included links to my codepen and some awesome <span class="highlight">❤</span> stuff (mostly related to javascript) below.
-                Ok so finally we are up and running.
-            </p>
+            <section>
+                <h2>Harikrishnan Balagopal</h2>
+                <p>
+                    This is my personal website. I have included links to my codepen and some awesome <span class="highlight">❤</span> stuff (mostly related to javascript) below. <br/>
+                    Enthusiastic about science and technology in general and especially about computers and physics.
+                </p>
+            </section>
+            <section>
+                <h2>Favourite languages</h2>
+                <ul>
+                    <li>Python</li>
+                    <li>Javascript/Typescript</li>
+                    <li>Haskell</li>
+                    <li>Rust</li>
+                    <li>Go</li>
+                    <li>C/C++</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Awesome Stuff <span class="highlight">❤</span></h2>
+                <ul>
+                    <li><a target="_blank" href="http://madebyevan.com/webgl-path-tracing/">WebGL Path Tracing</a></li>
+                    <li><a target="_blank" href="http://aem1k.com/">JavaScript Hacks and Creative Coding</a></li>
+                    <li><a target="_blank" href="http://aem1k.com/world/">Spinning Globe Quine</a></li>
+                    <li><a target="_blank" href="https://youtu.be/RTxtiLp1C8Y">Martin Kleppe: 1024+ Seconds of JS Wizardry -- JSConf EU 2013</a></li>
+                </ul>
+            </section>
         </div>
         `;
     }
