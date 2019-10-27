@@ -1,4 +1,5 @@
 import {LitElement, html, css} from 'lit-element';
+import '@haribala/waves-element';
 
 class MainView extends LitElement
 {
@@ -74,6 +75,10 @@ class MainView extends LitElement
                     <li>Go</li>
                     <li>C/C++</li>
                 </ul>
+            </section>
+            <section>
+                <h2>Waves</h2>
+                <waves-element></waves-element>
             </section>
             <section>
                 <h2>Awesome Stuff <span class="highlight">❤</span></h2>
