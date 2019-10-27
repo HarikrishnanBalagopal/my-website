@@ -78,6 +78,9 @@ class MainView extends LitElement
             </section>
             <section>
                 <h2>Waves</h2>
+                <p>
+                    This is a web component I made using LitElement and WebGL 2. It is available on NPM: <a href="https://www.npmjs.com/package/@haribala/waves-element" target="_blank">@haribala/waves-element</a>. Click and drag to create ripples in the pond.
+                </p>
                 <waves-element></waves-element>
             </section>
             <section>
