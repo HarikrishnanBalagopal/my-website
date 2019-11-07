@@ -84,12 +84,18 @@ class MainView extends LitElement
                 <waves-element></waves-element>
             </section>
             <section>
+                <h2>Some of my shadertoy shaders</h2>
+                <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/3d3XRf?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
+                <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/wd3XzS?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
+            </section>
+            <section>
                 <h2>Awesome Stuff <span class="highlight">❤</span></h2>
                 <ul>
                     <li><a target="_blank" href="https://codepen.io/collection/AMvJZW/">Some of my better codepens.</a></li>
                     <li><a target="_blank" href="http://madebyevan.com/webgl-path-tracing/">WebGL Path Tracing</a></li>
                     <li><a target="_blank" href="http://aem1k.com/">Javascript Hacks and Creative Coding</a></li>
                     <li><a target="_blank" href="http://aem1k.com/world/">Spinning Globe Quine</a></li>
+                    <li><a target="_blank" href="https://www.shadertoy.com/view/ldlSzX">Synthetic Aperture shader</a></li>
                     <li><a target="_blank" href="https://youtu.be/RTxtiLp1C8Y">Martin Kleppe: 1024+ Seconds of JS Wizardry -- JSConf EU 2013</a></li>
                 </ul>
             </section>
