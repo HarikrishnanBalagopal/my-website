@@ -87,6 +87,7 @@ class MainView extends LitElement
                 <h2>Some of my shadertoy shaders</h2>
                 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/3d3XRf?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
                 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/wd3XzS?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
+                <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/3dVSzR?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
             </section>
             <section>
                 <h2>Awesome Stuff <span class="highlight">❤</span></h2>
