@@ -90,6 +90,11 @@ class MainView extends LitElement
                 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/3dVSzR?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
             </section>
             <section>
+                <h2>Indian Railways delay visualization</h2>
+                <p>Visualization created as part of main project for CS685 Data Mining course at IIT Kanpur. <a href="https://github.com/HarikrishnanBalagopalIITK/IndianRailwaysDelayMap" target="_blank">Github repo.</a></p>
+                <iframe width="640" height="640" frameborder="0" src="https://harikrishnanbalagopaliitk.github.io/IndianRailwaysDelayMap/" allowfullscreen></iframe>
+            </section>
+            <section>
                 <h2>Awesome Stuff <span class="highlight">❤</span></h2>
                 <ul>
                     <li><a target="_blank" href="https://codepen.io/collection/AMvJZW/">Some of my better codepens.</a></li>
