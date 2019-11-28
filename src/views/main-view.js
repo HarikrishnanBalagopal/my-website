@@ -113,6 +113,10 @@ class MainView extends LitElement
                     <a target="_blank" href="https://github.com/HarikrishnanBalagopal/HarikrishnanBalagopal.github.io">Old website</a>
                     My old website built using React.
                 </p>
+                <p>
+                    <a target="_blank" href="https://harikrishnanbalagopal.github.io/s2_symbolic_fuzzing.pdf">Research slides</a>
+                    Research on Symbolic Execution to automatically perform formal verfication of programs.
+                </p>
             </section>
             <section>
                 <h2>Awesome Stuff <span class="highlight">❤</span></h2>
@@ -122,6 +126,7 @@ class MainView extends LitElement
                     <li><a target="_blank" href="http://aem1k.com/">Javascript Hacks and Creative Coding</a></li>
                     <li><a target="_blank" href="http://aem1k.com/world/">Spinning Globe Quine</a></li>
                     <li><a target="_blank" href="https://www.shadertoy.com/view/ldlSzX">Synthetic Aperture shader</a></li>
+                    <li><a target="_blank" href="https://youtu.be/n0kn4mDXY6I">First fully automated DEFCON CTF held by DARPA</a></li>
                     <li><a target="_blank" href="https://youtu.be/RTxtiLp1C8Y">Martin Kleppe: 1024+ Seconds of JS Wizardry -- JSConf EU 2013</a></li>
                 </ul>
             </section>
