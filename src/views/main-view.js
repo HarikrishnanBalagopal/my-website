@@ -77,13 +77,6 @@ class MainView extends LitElement
                 </ul>
             </section>
             <section>
-                <h2>Waves</h2>
-                <p>
-                    This is a web component I made using LitElement and WebGL 2. It is available on NPM: <a href="https://www.npmjs.com/package/@haribala/waves-element" target="_blank">@haribala/waves-element</a>. Click and drag to create ripples in the pond.
-                </p>
-                <waves-element></waves-element>
-            </section>
-            <section>
                 <h2>Some of my shadertoy shaders</h2>
                 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/3d3XRf?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
                 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/wd3XzS?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
@@ -93,6 +86,33 @@ class MainView extends LitElement
                 <h2>Indian Railways delay visualization</h2>
                 <p>Visualization created as part of main project for CS685 Data Mining course at IIT Kanpur. <a href="https://github.com/HarikrishnanBalagopalIITK/IndianRailwaysDelayMap" target="_blank">Github repo.</a></p>
                 <iframe width="640" height="640" frameborder="0" src="https://harikrishnanbalagopaliitk.github.io/IndianRailwaysDelayMap/" allowfullscreen></iframe>
+            </section>
+            <section>
+                <h2>Waves</h2>
+                <p>
+                    This is a web component I made using LitElement and WebGL 2. It is available on NPM: <a href="https://www.npmjs.com/package/@haribala/waves-element" target="_blank">@haribala/waves-element</a>. Click and drag to create ripples in the pond.
+                </p>
+                <waves-element></waves-element>
+            </section>
+            <section>
+                <h2>Some of my more interesting repos</h2>
+                <p>
+                    <a target="_blank" href="https://github.com/HarikrishnanBalagopal/gdb-gui">GDB GUI</a>
+                    A graphical user interface to interact with the GNU Debugger (GDB). Includes a console pass-through so you can pass more complicated commands directly to GDB. Written in <a target="_blank" href="https://elm-lang.org/">ELM</a>.
+                    Originally built because I was developing exploits in games and got tired of the severe lack of user friendliness of GDB's console interface.
+                </p>
+                <p>
+                    <a target="_blank" href="https://github.com/HarikrishnanBalagopal/parser-generator">Parse Generator Library</a>
+                    A CLR(1) parser generator for Javascript. Lexer not included. Built because I wanted to automatically generate compilers for programming language grammers specified in Backus–Naur form.
+                </p>
+                <p>
+                    <a target="_blank" href="https://github.com/HarikrishnanBalagopal/chrome-audio-visualizer">Chrome Audio Visualizer</a>
+                    A audio visualizer extension for chrome. Made specifically for Youtube.
+                </p>
+                <p>
+                    <a target="_blank" href="https://github.com/HarikrishnanBalagopal/HarikrishnanBalagopal.github.io">Old website</a>
+                    My old website built using React.
+                </p>
             </section>
             <section>
                 <h2>Awesome Stuff <span class="highlight">❤</span></h2>
