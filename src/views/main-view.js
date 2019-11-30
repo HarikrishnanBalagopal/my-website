@@ -28,6 +28,12 @@ class MainView extends LitElement
                 color: var(--text-color);
                 font-family: 'Montserrat', sans-serif;
             }
+            header
+            {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
             h1
             {
                 margin: 0;
@@ -56,13 +62,21 @@ class MainView extends LitElement
     {
         return html`
         <div class="wrapper">
-            <h1>About Me</h1>
+            <header>
+                <h1>Harikrishnan Balagopal</h1>
+                <h2>M.Tech. CSE IIT Kanpur</h2>
+            </header>
             <section>
-                <h2>Harikrishnan Balagopal</h2>
+                <h2>About Me</h2>
+                <p>
+                    I am a M.Tech. student in Computer Science and Engineering Department, IIT Kanpur. I am from Kerala, India. I joined IITK in 2018.
+                    My interests include Deep Learning, Computer Vision and Computer Graphics. Currently researching ways to generate videos using GANS.
+                    Interested in security research and formal verfication as a hobby.
+                </p>
+                <h2>About This Website</h2>
                 <p>
                     This is my personal website. I have included links to my codepen and some awesome <span class="highlight">❤</span> stuff (mostly related to javascript) below.
-                    Enthusiastic about science and technology in general and especially about computers and physics.
-                    Researching ways to generate videos using GANS. Interested in security research and formal verfication as a hobby.
+                    I have always been interested in Science and Technology, especially Computer Science and Physics, so I created this website to share some of the stuff I have found interesting over the years.
                 </p>
             </section>
             <section>
@@ -78,9 +92,11 @@ class MainView extends LitElement
             </section>
             <section>
                 <h2>Some of my shadertoy shaders</h2>
+                <p>To avoid overloading your device the shaders are paused. Hover over them to show the controls and click play to see them in action. Some of them are also interactive.</p>
                 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/3d3XRf?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
                 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/wd3XzS?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
                 <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/3dVSzR?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
+                <iframe width="640" height="360" frameborder="0" src="https://www.shadertoy.com/embed/wdyXDV?gui=true&t=10&paused=true&muted=false" allowfullscreen></iframe>
             </section>
             <section>
                 <h2>Indian Railways delay visualization</h2>
@@ -118,7 +134,7 @@ class MainView extends LitElement
                     Research on Symbolic Execution to automatically perform formal verfication of programs.
                 </p>
             </section>
-            <section>
+            <footer>
                 <h2>Awesome Stuff <span class="highlight">❤</span></h2>
                 <ul>
                     <li><a target="_blank" href="https://codepen.io/collection/AMvJZW/">Some of my better codepens.</a></li>
@@ -129,7 +145,7 @@ class MainView extends LitElement
                     <li><a target="_blank" href="https://youtu.be/n0kn4mDXY6I">First fully automated DEFCON CTF held by DARPA</a></li>
                     <li><a target="_blank" href="https://youtu.be/RTxtiLp1C8Y">Martin Kleppe: 1024+ Seconds of JS Wizardry -- JSConf EU 2013</a></li>
                 </ul>
-            </section>
+            </footer>
         </div>
         `;
     }
