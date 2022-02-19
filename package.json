@@ -2,7 +2,6 @@
   "name": "my-website",
   "version": "1.0.0",
   "description": "my website",
-  "main": "index.js",
   "scripts": {
     "dev": "parcel index.html",
     "build": "parcel build index.html --public-url .",
@@ -19,9 +18,12 @@
     "lit-element": "^2.2.1"
   },
   "devDependencies": {
+    "@parcel/packager-raw-url": "^2.3.2",
+    "@parcel/transformer-glsl": "^2.3.2",
+    "@parcel/transformer-webmanifest": "^2.3.2",
     "cssnano": "^5.0.17",
     "gh-pages": "^2.1.1",
     "http-server": "^14.1.0",
-    "parcel-bundler": "^1.12.4"
+    "parcel": "^2.3.2"
   }
 }
