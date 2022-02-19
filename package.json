@@ -4,8 +4,9 @@
   "description": "my website",
   "scripts": {
     "dev": "parcel index.html",
+    "clean": "rm -rf dist/",
     "build": "parcel build index.html --public-url .",
-    "deploy": "gh-pages -d dist"
+    "deploy": "cp -r privacy dist/ && gh-pages -d dist"
   },
   "browserslist": [
     "> 5%"
